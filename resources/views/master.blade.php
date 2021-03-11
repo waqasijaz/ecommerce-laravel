@@ -10,7 +10,9 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
@@ -33,6 +35,28 @@
          .custom-login{
           height:500px;
           padding-top:100px;
+          }
+          img.slider-img{
+              height:400px !important;
+          }
+          .custom-product{
+            height:550px;
+          }
+          .slider-text{
+            background-color: #24465454 !important;
+          }
+          .trending-img{
+            height: 100px;
+          }
+          .trending-items{
+            float: left;
+            width:25%;
+          }
+          .trending-wrapper{
+            margin:20px;
+          }
+          .detail-img{
+            height:200px;
           }
         </style>
 </html>
